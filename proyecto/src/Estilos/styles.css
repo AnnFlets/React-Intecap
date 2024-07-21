@@ -1,0 +1,87 @@
+.fondo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fondo.login{
+    background-image: url('../IMG/fondo-login.jpg');
+}
+
+.fondo.form{
+    background-image: url('../IMG/fondo-form.jpg');
+}
+
+.contenedor{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.contenedor.login {
+    padding: 35px;
+    max-width: 400px;
+}
+
+.contenedor.form{
+    padding: 20px;
+    max-width: 550px;
+}
+
+.titulo1 {
+    text-align: center;
+    color: rgb(97, 97, 97);
+    margin-bottom: 40px;
+}
+
+.grupo-form {
+    margin-bottom: 25px;
+}
+
+.label-form {
+    display: block;
+    margin-bottom: 10px;
+    color:rgb(100, 100, 100);
+}
+
+.input-form {
+    width: 100%;
+    padding: 8px;
+    border-radius: 15px;
+    border: 0.5px solid rgb(179, 179, 179);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.boton {
+    justify-self: center;
+    width: 90%;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+}
+
+.boton.login{
+    background-color: #cc6cbf;
+}
+
+.boton.login:hover {
+    background-color: #b13fa2;
+}
+
+.boton.form{
+    background-color: #d14b89;
+}
+
+.boton.form:hover {
+    background-color: #ae0961;
+}

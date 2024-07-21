@@ -1,0 +1,40 @@
+#contenedor-botones{
+    margin: 8px;
+    justify-content: end;
+}
+
+.btn{
+    border: 2px solid;
+    margin-right: 20px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link.azul{
+    color:rgb(176, 198, 253);
+}
+
+.link.amarillo{
+    color:rgb(253, 247, 176);
+}
+
+.link.verde{
+    color:rgb(176, 253, 180);
+}
+
+.link.rojo{
+    color:rgb(253, 176, 176);
+}
+
+.btn:hover{
+    color: white;
+}
+
+.titulo-principal{
+    text-align: center;
+    margin: 30px;
+    color: rgb(63, 63, 63);
+}
